@@ -1,0 +1,70 @@
+
+html{
+    height: 500vh;
+}
+
+.container-2{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #D2B48C;
+}
+
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;  
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-t2{
+    height: 100vh;
+    background-image: url(img/8fba72687cfe53e0b56ba06eee62463f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-perfil button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #D2B48C;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.vd{
+    text-align: center;
+}
+
