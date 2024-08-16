@@ -9,6 +9,7 @@ html{
 }
 
 .flex{
+    color: #D2B48C;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,3 +69,6 @@ header ul li a{
     text-align: center;
 }
 
+.foto-aluno{
+    text-align: center;
+}
