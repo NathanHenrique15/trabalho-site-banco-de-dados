@@ -87,3 +87,28 @@ main {
 .nav-list.active {
     transform: translateX(0);
 }
+
+
+
+.height-1 {
+    height: 20px;
+}
+
+.img-perfil {
+    text-align: center;
+}
+
+.dados-perfil {
+   text-align: center;
+}
+
+.dados-p {
+    display: flex;
+    justify-content: space-around ;
+    padding: 110px;
+}
+
+.dados-pp {
+    text-align: center;
+}
+
