@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="icon/escola.png" type="image/x-icon">
     <title>Colégio E. Angelo T.</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
 </head>
 <body>
     
@@ -22,11 +23,20 @@
                 <li><a href="login.html">login</a></li>
                 <li><a href="escola.html">escola</a></li>
                 <li><a href="perfil.html">perfil</a></li>
-
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main id="cursos" name="cursos" class="cursos">
+        <div name="esq" id="esq">
+
+        </div>
+        <div name="dir" id="dir">
+
+        </div>
+    </main>
     <script src="mobile-navbar.js"></script>
+    <script>
+        window.onload = carrega();
+    </script>
 </body>
 </html>
