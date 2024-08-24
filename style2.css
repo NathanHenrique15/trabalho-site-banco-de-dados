@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-a {
+.anav{
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
@@ -146,5 +146,9 @@ main {
     margin: 55px;
     height: 40%;
     border-bottom: 5px outset #363636;
-border-radius: 17px 17px 17px 17px;
+    border-radius: 17px 17px 17px 17px;
+}
+.txtbox{
+    color: black;
+    font-size: 300%;
 }
