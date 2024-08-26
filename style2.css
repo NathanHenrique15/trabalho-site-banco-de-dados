@@ -178,7 +178,7 @@ main {
     left: 0;
     right: 0;
     text-align: left;
-    font-size: 25px;
+    font-size: 24px;
     color: black;
 }
 
@@ -206,7 +206,7 @@ main {
     left: 0;
     right: 0;
     text-align: left;
-    font-size: 25px;
+    font-size: 24px;
     color: black;
 }
 .template{
@@ -214,3 +214,9 @@ main {
     max-height: 325px;
     min-height: 300px;
 }
+
+.a1 {
+    color: black;
+    text-decoration: none;
+}
+
