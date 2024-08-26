@@ -156,14 +156,6 @@ main {
     -webkit-box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.75); 
     box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.75);
 }
-
-
-.img-bio {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
 .box-1 {
     position: absolute;
     left: 0;
@@ -171,23 +163,22 @@ main {
     margin: auto;
     top: 70%;
     width: 80%;
-    padding: 2.7%;
+    padding: 2.5%;
     background-color: #DCDCDC;
-    border-left: 6px solid #363636;
+    border-left: 6px solid #000000;
+    border-right: 6px solid #000000;
     -webkit-box-shadow: -10px -7px 9px -4px rgba(0,0,0,0.59); 
-box-shadow: -10px -7px 9px -4px rgba(0,0,0,0.59);
--webkit-border-radius: 0px 20px 20px 20px;
--moz-border-radius: 0px 20px 20px 20px;
-border-radius: 0px 20px 20px 20px;
-
+    box-shadow: -10px -7px 9px -4px rgba(0,0,0,0.59);
+    -webkit-border-radius: 0px 20px 20px 20px;
+    -moz-border-radius: 0px 20px 20px 20px;
+    border-radius: 0px 10px 10px 10px;
 }
-
 .box-2 {
     position: relative;
     left: 0;
     right: 0;
     text-align: left;
-    font-size: 16px;
+    font-size: 25px;
     color: black;
 }
 
@@ -196,25 +187,30 @@ border-radius: 0px 20px 20px 20px;
     left: 0;
     right: 0%;
     margin: auto;
+    margin-top: 30px;
     top: 85%;
     width: 80%;
-    padding: 2.7%;
+    padding: 2.5%;
     background-color: #DCDCDC;
-    border-left: 6px solid #363636;
+    border-left: 6px solid #000000;
+    border-right: 6px solid #000000;
     -webkit-box-shadow: -10px -7px 9px -4px rgba(0,0,0,0.59); 
-box-shadow: -10px -7px 9px -4px rgba(0,0,0,0.59);
--webkit-border-radius: 0px 20px 20px 20px;
--moz-border-radius: 0px 20px 20px 20px;
-border-radius: 0px 20px 20px 20px;
+    box-shadow: -10px -7px 9px -4px rgba(0,0,0,0.59);
+    -webkit-border-radius: 0px 20px 20px 20px;
+    -moz-border-radius: 0px 20px 20px 20px;
+    border-radius: 0px 20px 20px 20px;
 
 }
-
 .box-4 {
     position: relative;
     left: 0;
     right: 0;
     text-align: left;
-    font-size: 16px;
+    font-size: 25px;
     color: black;
 }
-
+.template{
+    width: 100%;
+    max-height: 325px;
+    min-height: 300px;
+}
