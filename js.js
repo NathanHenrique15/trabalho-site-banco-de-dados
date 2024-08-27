@@ -14,7 +14,6 @@ function aviso(materia){
       switch (materia){
             case 'ingles': 
                 aviso = ingles;
-            break
-            case 1:
-                aviso = portuges
+            break;
+    alert(aviso);
 }
