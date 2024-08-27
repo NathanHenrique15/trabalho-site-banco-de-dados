@@ -10,10 +10,12 @@ function carrega(){
         }
     }
 }
+
+/*
 function aviso(materia){
       switch (materia){
             case 'ingles': 
                 aviso = ingles;
             break;
     alert(aviso);
-}
+}*/
