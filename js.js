@@ -1,5 +1,6 @@
 const nome=['Inglês','Português','Quimica','Matemática','Geografia','Biologia',]
-
+const ingles=['aviso 1','aviso 2']
+const avisos = [];
 function carrega(){
     for(var item in nome){
         if((item % 2)==0){
@@ -9,4 +10,11 @@ function carrega(){
         }
     }
 }
-        
+function aviso(materia){
+      switch (materia){
+            case 'ingles': 
+                aviso = ingles;
+            break
+            case 1:
+                aviso = portuges
+}
